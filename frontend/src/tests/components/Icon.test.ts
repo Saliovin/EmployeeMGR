@@ -10,6 +10,6 @@ describe('icon', () => {
                 size: 'lg'
             }
         })
-        expect(card).toMatchSnapshot()
+        expect(card.element).toMatchSnapshot()
     })
 })

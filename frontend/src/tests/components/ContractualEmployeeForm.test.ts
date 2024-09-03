@@ -16,6 +16,6 @@ describe('contractual employee form', () => {
                   }
             }
         })
-        expect(form).toMatchSnapshot()
+        expect(form.element).toMatchSnapshot()
     })
 })

@@ -16,6 +16,6 @@ describe('regular employee form', () => {
                   }
             }
         })
-        expect(form).toMatchSnapshot()
+        expect(form.element).toMatchSnapshot()
     })
 })

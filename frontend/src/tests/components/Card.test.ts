@@ -10,6 +10,6 @@ describe('card', () => {
                 last_name: 'testing'
             }
         })
-        expect(card).toMatchSnapshot()
+        expect(card.element).toMatchSnapshot()
     })
 })

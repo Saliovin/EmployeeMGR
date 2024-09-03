@@ -5,6 +5,6 @@ import { describe, expect, it } from 'vitest'
 describe('home', () => {
     it('base', () => {
         const modal = mount(HomeView)
-        expect(modal).toMatchSnapshot()
+        expect(modal.element).toMatchSnapshot()
     })
 })

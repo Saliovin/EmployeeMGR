@@ -5,6 +5,6 @@ import { describe, expect, it } from 'vitest'
 describe('login', () => {
     it('base', () => {
         const login = mount(LoginView)
-        expect(login).toMatchSnapshot()
+        expect(login.element).toMatchSnapshot()
     })
 })

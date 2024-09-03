@@ -9,6 +9,6 @@ describe('modal', () => {
                 title: 'test',
             }
         })
-        expect(modal).toMatchSnapshot()
+        expect(modal.element).toMatchSnapshot()
     })
 })
