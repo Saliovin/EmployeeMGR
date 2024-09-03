@@ -1,5 +1,8 @@
 FROM node:16.10.0-alpine3.13 AS build-stage
 
+ARG VITE_BASE_API_URL
+ENV VITE_BASE_API_URL=$VITE_BASE_API_URL
+
 WORKDIR /app
 
 COPY package*.json ./
